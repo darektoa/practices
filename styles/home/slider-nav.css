@@ -1,0 +1,185 @@
+/* SLIDER PREVIEW */
+#hero-box > .slider-nav{
+  --scale: 0.45;
+  width: 100%;
+  display: flex;
+  overflow: auto;
+}
+  
+#hero-box > .slider-nav .slide{
+  width: 100%;
+  height: calc(70rem * var(--scale));
+  margin: 1rem;
+  padding: 5rem;
+  flex-shrink: 0;
+  position: relative;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#hero-box > .slider-nav .slide:hover{
+  transform: scale(1.02);
+}
+
+/* SLIDE 1 */
+#hero-box > .slider-nav .slide-1{
+  display: flex;
+  align-items: center;
+}
+
+#hero-box > .slider-nav .slide-1 > .text-box{
+  height: auto;
+  position: absolute;
+  left: calc(5rem * var(--scale));
+  z-index: 2;
+}
+
+#hero-box > .slider-nav .slide-1 > .text-box > h2{
+  max-width: calc(32.5rem * var(--scale));
+  margin-bottom: calc(4rem * var(--scale));
+  color: #333;
+  font-size: calc(4.8rem * var(--scale));
+  line-height: calc(6.7rem * var(--scale));
+}
+
+#hero-box > .slider-nav .slide-1 > .text-box > h2 > span{
+  color: #4682B4;
+}
+
+#hero-box > .slider-nav .slide-1 > .text-box > a{
+  padding: calc(1rem * var(--scale)) calc(2.5rem * var(--scale));
+  display: inline-block;
+  color: #FFF;
+  font-size: calc(1.6rem * var(--scale));
+  text-decoration: none;
+  background-color: #4682B4;
+  border-radius: calc(10rem * var(--scale));
+}
+
+#hero-box > .slider-nav .slide-1 > .icon-circle{
+  width: calc(114rem * var(--scale));
+  height: calc(114rem * var(--scale));
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 60%);
+  background-color: #4682B4;
+  border-radius: 50%;
+}
+
+#hero-box > .slider-nav .slide-1 > .illustration{
+  width: calc(70rem * var(--scale));
+  position: absolute;
+  right: calc(2rem * var(--scale));
+  object-fit: contain;
+}
+
+/* SLIDE 2 */
+#hero-box > .slider-nav .slide-2{
+  display: flex;
+  align-items: center;
+}
+
+#hero-box > .slider-nav .slide-2 > .text-box{
+  height: auto;
+  position: absolute;
+  left: calc(5rem * var(--scale));
+  z-index: 2;
+}
+
+#hero-box > .slider-nav .slide-2 > .text-box > h2{
+  max-width: calc(41rem * var(--scale));
+  margin-bottom: calc(3rem * var(--scale));
+  color: #E4F6FF;
+  font-size: calc(4.8rem * var(--scale));
+  line-height: calc(6.7rem * var(--scale));
+}
+
+#hero-box > .slider-nav .slide-2 > .text-box > p{
+  margin-bottom: calc(4rem * var(--scale));
+  color: #FFF;
+  font-size: calc(2rem * var(--scale));
+}
+
+#hero-box > .slider-nav .slide-2 > .text-box > a{
+  padding:calc(1rem * var(--scale)) calc(2.5rem * var(--scale));
+  display: inline-block;
+  color: #FFF;
+  font-size: calc(1.6rem * var(--scale));
+  text-decoration: none;
+  background-color: #26457D;
+  border-radius: calc(10rem * var(--scale));
+}
+
+#hero-box > .slider-nav .slide-2 > .icon-circle{
+  width: calc(117.5rem * var(--scale));
+  height: calc(117.5rem * var(--scale));
+  position: absolute;
+  left: 0;
+  transform: translateX(-40%);
+  background-color: #4682B4;
+  border-radius: 50%;
+}
+
+#hero-box > .slider-nav .slide-2 > .illustration{
+  width: calc(51.2rem * var(--scale));
+  position: absolute;
+  left: calc(50rem * var(--scale));
+  object-fit: contain;
+}
+
+/* SLIDE 3 */
+#hero-box > .slider-nav .slide-3{
+  display: flex;
+  align-items: center;
+}
+
+#hero-box > .slider-nav .slide-3 > .text-box{
+  height: auto;
+  position: absolute;
+  right: calc(5rem * var(--scale));
+  z-index: 2;
+}
+
+#hero-box > .slider-nav .slide-3 > .text-box > h2{
+  max-width: calc(48rem * var(--scale));
+  margin-bottom: calc(3rem * var(--scale));
+  color: #E4F6FF;
+  font-size: calc(4.8rem * var(--scale));
+  line-height: calc(6.7rem * var(--scale));
+}
+
+#hero-box > .slider-nav .slide-3 > .text-box > p{
+  margin-bottom: calc(4rem * var(--scale));
+  color: #FFF;
+  font-size: calc(2rem * var(--scale));
+}
+
+#hero-box > .slider-nav .slide-3 > .text-box > a{
+  padding: calc(1rem * var(--scale)) calc(2.5rem * var(--scale));
+  display: inline-block;
+  color: #FFF;
+  font-size: calc(1.6rem * var(--scale));
+  text-decoration: none;
+  background-color: #26457D;
+  border-radius: calc(10rem * var(--scale));
+}
+
+#hero-box > .slider-nav .slide-3 > .icon-circle{
+  width: calc(117.5rem * var(--scale));
+  height: calc(117.5rem * var(--scale));
+  position: absolute;
+  right: 0;
+  transform: translateX(50%);
+  background-color: #4682B4;
+  border-radius: 50%;
+}
+
+#hero-box > .slider-nav .slide-3 > .illustration{
+  width: calc(44rem * var(--scale));
+  position: absolute;
+  left: calc(5rem * var(--scale));
+  object-fit: contain;
+}
